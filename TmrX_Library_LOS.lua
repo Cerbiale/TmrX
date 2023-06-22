@@ -585,8 +585,8 @@ noclip() -- to toggle noclip() and clip()
 			A_CloseButton_1.TextColor3 = Color3.fromRGB(156, 42, 24)
 			wait(0.1)
 			A_CloseButton_1.TextColor3 = Color3.fromRGB(255,0,0)
-			TmrXLibrary.Visible = false
-			TmrX.Visible = true
+			TmrXLibrary.Enabled = false
+			TmrX.Enabled = true
 		end) 
     end
 	function Tabs:CreateAutoFarm()
